@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color: #283149;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.bar_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.days_left{
+    font-size: 4rem;
+}
+
+.prog_percent{
+    font-size: 2rem;
+}
+
+.bar{
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 200px;
+    height:max-content;
+    background-color: beige;
+}
+
+.progress{
+    font-size: 1.5rem;
+    background-color: blue;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
